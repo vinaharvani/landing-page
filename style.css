@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #007AF3;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'poppins';
+}
+
+
+.nav-bar {
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(233, 26%, 24%);
+}
+
+.logo span{
+    color: var(--primary-color);
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+.nav-bar button{
+    padding: 14px 28px;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 22px;
+}
+
+.wlc-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.wlc-image img{
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 5rem;
+}
+
+.wlc-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.wlc-text h1{
+    color:hsl(233, 26%, 24%);
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.wlc-text p{
+    color: grey;
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.content-wh{
+    background-color: hsl(220, 16%, 96%);
+}
+
+.wh {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    width: 85%;
+}
+
+.wh h1 {
+    color:hsl(233, 26%, 24%);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.wh p{
+    color: grey;
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.advantage{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding-bottom: 100px;
+}
+
+.advantage-item h1{
+    color:hsl(233, 26%, 24%);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.advantage-item p{
+    margin-right: 1rem;
+    color: grey;
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.feature {
+    color:hsl(233, 26%, 24%);
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+
+.contact-section{
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    width: 85%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-section h3{
+    color:hsl(233, 26%, 24%);
+
+}
+
+.btn {
+    margin-left: 10rem;
+}
+
+.btn button{
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 22px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+ 
+
+
